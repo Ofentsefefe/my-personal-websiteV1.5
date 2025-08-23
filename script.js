@@ -114,9 +114,11 @@ document.addEventListener('DOMContentLoaded', function() {
 const typingElement = document.querySelector('.typing');
 const professions = [
   "Data Analyst",
-  "Software Developer",
-  "System Analyst",
   "Software Engineer",
+  "System Analyst",
+  "Database Administrator",
+  "Business Analyst",
+  "Software Developer",
   "Application Developer",
   "Web Designer",
   "Web Developer",
@@ -153,4 +155,5 @@ function type() {
 }
 
 // Start the typing effect
+
 setTimeout(type, 1000);
