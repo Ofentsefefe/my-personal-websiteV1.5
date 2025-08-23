@@ -195,6 +195,16 @@ header ul li a.active {
   border-right: 2px solid #1f71a1;
   animation: blink 0.8s infinite;
 }
+/* For very small screens */
+@media screen and (max-width: 480px) {
+  .dynamic-text {
+    min-height: 100px; /*  more space making 2-3 lines */
+  }
+  
+  .content h2 {
+    font-size: 1.7em;
+  }
+}
 
 @keyframes blink {
   0% { opacity: 0; }
@@ -804,4 +814,5 @@ footer p {
   .project-card {
     min-width: 100%;
   }
+
 }
