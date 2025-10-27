@@ -113,17 +113,15 @@ document.addEventListener('DOMContentLoaded', function() {
 // Typing animation text writing
 const typingElement = document.querySelector('.typing');
 const professions = [
-  "Data Analyst",
-  "Software Engineer",
-  "System Analyst",
-  "Database Administrator",
-  "Business Analyst",
-  "Software Developer",
-  "Application Developer",
-  "Web Designer",
-  "Web Developer",
-  "Tech Enthusiast",
-  "Problem Solver"
+  "Data Analysis",
+  "Software Engineering",
+  "System Analysis",
+  "Database Administration",
+  "Business Analysis",
+  "Software Developement",
+  "Application Developement",
+  "Web Design",
+  "Web Developement",
 ];
 let wordIndex = 0;
 let charIndex = 0;
@@ -157,3 +155,4 @@ function type() {
 // Start the typing effect
 
 setTimeout(type, 1000);
+
