@@ -117,6 +117,8 @@ const professions = [
   "Software Engineering",
   "System Analysis",
   "Database Administration",
+  "Artificial Intelligence(AI)",
+  "Machine Learning",
   "Business Analysis",
   "Software Developement",
   "Application Developement",
@@ -155,4 +157,5 @@ function type() {
 // Start the typing effect
 
 setTimeout(type, 1000);
+
 
