@@ -793,7 +793,66 @@ header ul li a.active {
   transform: translateY(-3px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
+/* Error message styling */
+.error-message {
+  color: #e74c3c;
+  font-size: 0.85em;
+  margin-top: 5px;
+  display: block;
+  min-height: 20px;
+}
 
+/* Success message styling */
+.success-message {
+  background: #2ecc71;
+  color: white;
+  padding: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  text-align: center;
+  display: none;
+  animation: fadeIn 0.3s ease;
+}
+
+/* Form input error state */
+.form-group input:invalid,
+.form-group textarea:invalid {
+  border: 1px solid #e74c3c !important;
+}
+
+.form-group input:valid,
+.form-group textarea:valid {
+  border: 1px solid #27ae60 !important;
+}
+
+/* Loading state for button */
+button.loading {
+  position: relative;
+  color: transparent;
+}
+
+button.loading::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  border: 2px solid white;
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
 /* Footer */
 footer {
   background: rgba(255, 255, 255, 0.2);
@@ -941,3 +1000,4 @@ footer p {
     min-width: 100%;
   }
 }
+
