@@ -1040,7 +1040,7 @@ header ul li a.active {
   margin-top: 20px;
   text-align: center;
   display: none;
-  animation: fadeIn 0.3s ease;
+  animation: fadeIn 0.5s ease;
 }
 
 /* Form input error state */
@@ -1229,5 +1229,6 @@ footer p {
     min-width: 100%;
   }
 }
+
 
 
