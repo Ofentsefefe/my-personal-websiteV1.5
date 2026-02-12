@@ -44,7 +44,7 @@ if (contactForm) {
       // Simulate form submission (replace with actual AJAX call)
       setTimeout(() => {
         // Success
-        showSuccessMessage('Message sent successfully! I will get back to you soon.');
+        showSuccessMessage('Your message has been sent successfully. Thank you for getting in touch! I’ll get back to you as soon as possible');
         
         // Reset form
         contactForm.reset();
@@ -101,7 +101,7 @@ function validatePhone() {
     const cleanPhone = phone.replace(/\s/g, '');
     
     if (!saPhoneRegex.test(cleanPhone)) {
-      phoneError.textContent = 'Please enter a valid South African phone number (e.g., 0646660240 or +27646660240)';
+      phoneError.textContent = 'Please enter a valid South African phone number (e.g.10 digits, start with 0 or +27)';
       return false;
     }
   }
@@ -321,6 +321,7 @@ function type() {
 // Start the typing effect
 
 setTimeout(type, 1000);
+
 
 
 
