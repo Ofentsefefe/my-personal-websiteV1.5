@@ -271,7 +271,7 @@ header ul li a.active {
 /* Profile Image Styling */
 .imgBox {
   order: -1;
-  /* Ensures image stays above text */
+  /* This line ensures image stays above text */
   margin-bottom: 20px;
 }
 
@@ -666,7 +666,7 @@ header ul li a.active {
   background: rgba(31, 113, 161, 0.2);
   transform: translateY(-2px);
 }
-/* LinkedIn-style Experience Section */
+/*  Experience style Section */
 .linkedin-experience {
   display: flex;
   flex-direction: column;
@@ -846,7 +846,7 @@ header ul li a.active {
   font-size: 0.9em;
 }
 
-/* Responsive adjustments for LinkedIn style */
+/* Responsive adjustments for Experience style */
 @media screen and (max-width: 768px) {
   .linkedin-header {
     gap: 12px;
@@ -1127,7 +1127,7 @@ footer {
   /* Changes background on hover to match your theme */
 }
 
-/* Remove or comment out any existing .social-links a and .social-links a:hover styles */
+/*social links*/
 
 .social-links a:hover {
 
@@ -1229,6 +1229,7 @@ footer p {
     min-width: 100%;
   }
 }
+
 
 
 
