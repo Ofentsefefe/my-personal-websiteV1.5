@@ -41,7 +41,7 @@ if (contactForm) {
       submitBtn.disabled = true;
       submitBtn.classList.add('loading');
       
-      // Simulate form submission (replace with actual AJAX call)
+      // Simulate form submission
       setTimeout(() => {
         // Success
         showSuccessMessage('Your message has been sent successfully. Thank you for getting in touch! I’ll get back to you as soon as possible');
@@ -321,6 +321,7 @@ function type() {
 // Start the typing effect
 
 setTimeout(type, 1000);
+
 
 
 
