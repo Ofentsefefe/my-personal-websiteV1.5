@@ -94,21 +94,6 @@ function validatePhone() {
   const phone = document.getElementById('phone').value;
   const phoneError = document.getElementById('phoneError');
   
-  // Phone optional for though
-  if (phone) {
-    // South African phone regex (accepts various formats)
-    const saPhoneRegex = /^(\+27|27|0)[0-9]{9}$/;
-    const cleanPhone = phone.replace(/\s/g, '');
-    
-    if (!saPhoneRegex.test(cleanPhone)) {
-      phoneError.textContent = 'Please enter a valid South African phone number (e.g.10 digits, start with 0 or +27)';
-      return false;
-    }
-  }
-  
-  phoneError.textContent = '';
-  return true;
-}
 
 function validateName() {
   const name = document.getElementById('name').value;
