@@ -94,7 +94,7 @@ function validatePhone() {
   const phone = document.getElementById('phone').value;
   const phoneError = document.getElementById('phoneError');
   
-  // Phone is optional, but if provided, validate it
+  // Phone optional for though
   if (phone) {
     // South African phone regex (accepts various formats)
     const saPhoneRegex = /^(\+27|27|0)[0-9]{9}$/;
