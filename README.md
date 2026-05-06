@@ -48,11 +48,11 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
 
 <div align="center">
   
-  ### 🌐 [View Live Portfolio](https://ofentsefefe.github.io/Tech-company-portfoloi/) 
+  ### 🌐 [View Live Portfolio](https://ofentsefefe.github.io/my-personal-websiteV1.5/) 
   
   *Click above to see my portfolio in action!*
   
-  ![Portfolio Demo](https://ofentsefefe.github.io/Tech-company-portfoloi/)
+  ![Portfolio live]([https://ofentsefefe.github.io/Tech-company-portfoloi/](https://ofentsefefe.github.io/my-personal-websiteV1.5/))
 
 </div>
 
