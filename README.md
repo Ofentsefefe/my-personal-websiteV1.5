@@ -52,7 +52,7 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
   
   *Click above to see my portfolio in action!*
   
-  ![Portfolio Demo](https://via.placeholder.com/800x400?text=Portfolio+Screenshot)
+  ![Portfolio Demo](https://ofentsefefe.github.io/Tech-company-portfoloi/)
 
 </div>
 
