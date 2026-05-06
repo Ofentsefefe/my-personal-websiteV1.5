@@ -84,4 +84,3 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
 
 ---
 
-## 📁 Project Structure
