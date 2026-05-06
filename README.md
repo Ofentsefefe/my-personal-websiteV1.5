@@ -2,7 +2,7 @@
 <div align="center">
   
   <!-- Animated Header -->
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=72A1DE&center=true&vCenter=true&width=500&lines=Welcome+To+My+Portfolio;Full+Stack+Developer;UI%2FUX+Enthusiast;Problem+Solver" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=30&pause=1000&color=72A1DE&center=true&vCenter=true&width=500&lines=Welcome+To+My+Portfolio;Full+Stack+Developer;UI%2FUX+Enthusiast;Software+Enginee;Problem+Solver" alt="Typing SVG" />
   
   <br>
   
@@ -14,7 +14,7 @@
   ### *Showcasing My Work, Skills & Journey*
   
   [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-00ff88?style=for-the-badge&logo=vercel&logoColor=white)](#)
-  [![GitHub]()](https://github.com/yourusername)
+  [![GitHub]()](https://github.com/Ofentsefefe)
   [![Portfolio]([https://img.shields.io/badge/Portfolio-Online-72a1de?style=for-the-badge&logo=google-chrome&logoColor=white])](#)
   
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
