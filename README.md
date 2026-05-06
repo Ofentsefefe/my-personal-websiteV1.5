@@ -6,7 +6,7 @@
   <br>
   
   <!-- Logo/Profile Picture -->
-  <img src="src/images/Company_Logo.jpg" alt="Logo" width="120" height="120" style="border-radius: 50%; border: 3px solid #72a1de;">
+  <img src="src/images/ofentse_picture_pp.jpeg" alt="Logo" width="120" height="120" style="border-radius: 50%; border: 3px solid #72a1de;">
   
   # 🌟 Personal Portfolio Website
   
