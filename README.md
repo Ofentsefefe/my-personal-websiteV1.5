@@ -14,8 +14,8 @@
   ### *Showcasing My Work, Skills & Journey*
   
   [![Live Demo](https://img.shields.io/badge/Live_Demo-View_Website-00ff88?style=for-the-badge&logo=vercel&logoColor=white)](#)
-  [![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yourusername)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-Online-72a1de?style=for-the-badge&logo=google-chrome&logoColor=white)](#)
+  [![GitHub]()](https://github.com/yourusername)
+  [![Portfolio]([https://img.shields.io/badge/Portfolio-Online-72a1de?style=for-the-badge&logo=google-chrome&logoColor=white](https://ofentsefefe.github.io/my-personal-websiteV1.5/))](#)
   
   ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
   ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -49,7 +49,7 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
 
 <div align="center">
   
-  ### 🌐 [View Live Portfolio]([#](https://ofentsefefe.github.io/my-personal-websiteV1.5/)) 
+  ### 🌐 [View Live Portfolio]([#]) 
   
   *Click above to see my portfolio in action!*
   
