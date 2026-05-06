@@ -54,7 +54,6 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
   *Click above to see my portfolio in action!*
   
   ![Portfolio Demo](https://ofentsefefe.github.io/my-personal-websiteV1.5/)
-
 </div>
 
 ---
