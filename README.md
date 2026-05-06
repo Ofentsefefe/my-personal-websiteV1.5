@@ -49,7 +49,7 @@ A modern, fully responsive personal portfolio website that showcases my skills, 
 
 <div align="center">
   
-  ### 🌐 [View Live Portfolio](#) 
+  ### 🌐 [View Live Portfolio]([#](https://ofentsefefe.github.io/my-personal-websiteV1.5/)) 
   
   *Click above to see my portfolio in action!*
   
