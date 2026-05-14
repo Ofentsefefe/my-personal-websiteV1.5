@@ -27,7 +27,7 @@
 
 ## 📖 About The Project
 
-A modern, fully responsive personal portfolio website that showcases my skills, projects, and professional journey. Built with pure HTML5, CSS3, and JavaScript, this portfolio features stunning visual effects, smooth animations, and a fully functional contact system.
+A modern, fully responsive personal portfolio website that showcases my skills, projects, and professional journey in tech industry. Built with pure HTML5, CSS3, and JavaScript, this portfolio features stunning visual effects, smooth animations, and a fully functional contact system.
 
 ### ✨ **Key Features**
 
