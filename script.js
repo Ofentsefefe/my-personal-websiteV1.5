@@ -271,7 +271,6 @@ if (typingElement) {
     "Artificial Intelligence (AI)",
     "Machine Learning",
     "Business Analysis",
-    "Software Development",
     "Application Development",
     "Cloud Engineering",
     "AI research"
