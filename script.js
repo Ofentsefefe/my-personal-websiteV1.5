@@ -273,8 +273,8 @@ if (typingElement) {
     "Business Analysis",
     "Software Development",
     "Application Development",
-    "Web Design",
-    "Web Development"
+    "Cloud Engineering",
+    "AI research"
   ];
 
   let wordIndex = 0;
