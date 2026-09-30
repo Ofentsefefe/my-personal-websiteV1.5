@@ -300,18 +300,25 @@ if (typingElement) {
   setTimeout(type, 1000);
 }
 // =========================
-// BACK TO TOP BUTTON
+// =========================
+// BACK TO TOP BUTTON (floats after small scroll)
 // =========================
 const backToTop = document.getElementById('backToTop');
 
 if (backToTop) {
-  window.addEventListener('scroll', () => {
-    if (window.scrollY > 400) {
+  const SHOW_AFTER = 150; // 👈 Control this value to tune (px scrolled)
+
+  const toggleBackToTop = () => {
+    if (window.scrollY > SHOW_AFTER) {
       backToTop.classList.add('visible');
     } else {
       backToTop.classList.remove('visible');
     }
-  }, { passive: true });
+  };
+
+  window.addEventListener('scroll', toggleBackToTop, { passive: true });
+  window.addEventListener('load', toggleBackToTop);
+  toggleBackToTop(); // run once on page load
 
   backToTop.addEventListener('click', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
