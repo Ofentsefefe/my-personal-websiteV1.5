@@ -1266,6 +1266,7 @@ footer p {
   opacity: 1;
   visibility: visible;
   transform: translateY(0) scale(1);
+  animation: floatUp 3s ease-in-out infinite;
 }
 
 .back-to-top:hover {
@@ -1296,6 +1297,27 @@ footer p {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* Gentle floating motion */
+@keyframes floatUp {
+  0%, 100% {
+    transform: translateY(0) scale(1);
+    box-shadow:
+      0 10px 24px rgba(31, 113, 161, 0.25),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+  50% {
+    transform: translateY(-6px) scale(1);
+    box-shadow:
+      0 16px 30px rgba(31, 113, 161, 0.35),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  }
+}
+
+/* Stop floating when hovered — keeps it feeling responsive */
+.back-to-top:hover {
+  animation: none;
 }
 
 
