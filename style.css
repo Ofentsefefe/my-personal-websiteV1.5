@@ -1229,7 +1229,74 @@ footer p {
     min-width: 100%;
   }
 }
+/* ============ BACK TO TOP BUTTON ============ */
+.back-to-top {
+  position: fixed;
+  right: 28px;
+  bottom: 28px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px) saturate(160%);
+  -webkit-backdrop-filter: blur(16px) saturate(160%);
+  color: #1f71a1;
+  font-size: 1.05rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 10px 24px rgba(31, 113, 161, 0.25),
+    inset 0 1px 0 rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(15px) scale(0.9);
+  transition:
+    opacity 0.35s ease,
+    transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+    visibility 0.35s ease,
+    background 0.3s ease,
+    color 0.3s ease;
+  z-index: 999;
+}
 
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+}
+
+.back-to-top:hover {
+  background: #1f71a1;
+  color: #fff;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 16px 32px rgba(31, 113, 161, 0.4);
+}
+
+.back-to-top:active {
+  transform: translateY(-2px) scale(1);
+}
+
+@media screen and (max-width: 576px) {
+  .back-to-top {
+    right: 18px;
+    bottom: 18px;
+    width: 46px;
+    height: 46px;
+    font-size: 0.95rem;
+  }
+}
+
+/* ============ REDUCED MOTION ============ */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
 
 
 
